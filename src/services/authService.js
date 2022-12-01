@@ -1,7 +1,7 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-export const BACKEND_URL = https://livecaresystem.onrender.com;
+export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 // Validate Email
 export const validateEmail = (email) => {
